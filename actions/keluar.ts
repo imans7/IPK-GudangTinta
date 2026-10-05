@@ -44,7 +44,7 @@ export async function lookupKaleng(idRaw: string): Promise<LookupResult> {
   const id = idRaw.trim();
   if (!id) return { ok: false, error: "QR kosong." };
   const r = await validasiFifo(id);
-  if ("error" in r) return { ok: false, error: r.error };
+  if ("error" in r) return { ok: false, error: r.error ?? "terjadi kesalahan validasi fifo." };
   return { ok: true, kaleng: await toInfo(r.kaleng) };
 }
 
