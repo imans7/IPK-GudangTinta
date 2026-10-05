@@ -79,7 +79,7 @@ export async function submitPinjam(fd: FormData): Promise<{ ok: true; pesan: str
   if (!Number.isFinite(awal) || awal <= 0) return { ok: false, error: "Berat awal harus lebih dari 0." };
 
   const v = await validasiFifo(id);
-  if ("error" in v) return { ok: false, error: v.error };
+  if ("error" in v) return { ok: false, error: v.error ?? "terjadi kesalahan validasi." };
   const k = v.kaleng;
   const label = unitBerat(k.katalog.satuan).label;
   if (awal > k.berat_aktual + 0.0005) return { ok: false, error: `Berat awal melebihi sisa tercatat di kaleng (${k.berat_aktual} ${label}).` };
