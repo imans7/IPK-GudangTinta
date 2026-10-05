@@ -1,0 +1,2516 @@
+{
+ "periode": "2026-08",
+ "gudang": "88A&84",
+ "katalog": [
+  {
+   "kode": "EMPMRC1",
+   "nama": "EMBLEM proses black MRC",
+   "satuan": "kg",
+   "stock_awal": 7.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "EMPMRC2",
+   "nama": "EMBLEM proses cyan MRC",
+   "satuan": "kg",
+   "stock_awal": 38.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "EMPMRC3",
+   "nama": "EMBLEM proses magenta MRC",
+   "satuan": "kg",
+   "stock_awal": 30.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "EMPMRC4",
+   "nama": "EMBLEM proses yelow MRC",
+   "satuan": "kg",
+   "stock_awal": 23.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "TCMED",
+   "nama": "Tc 0001 medium",
+   "satuan": "kg",
+   "stock_awal": 17.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "TCMEDY01",
+   "nama": "Tc 0105 medium yelow",
+   "satuan": "kg",
+   "stock_awal": 7.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "TCBRONRED11",
+   "nama": "Tc 1105 Bronje red",
+   "satuan": "kg",
+   "stock_awal": 5.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "TCCR13",
+   "nama": "Tc 1305 Cf red",
+   "satuan": "kg",
+   "stock_awal": 11.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "TCRED14",
+   "nama": "Tc 1405 Red",
+   "satuan": "kg",
+   "stock_awal": 4.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "TCRUBRED16",
+   "nama": "Tc 1605 Rubine red",
+   "satuan": "kg",
+   "stock_awal": 6.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "TCDERED17",
+   "nama": "Tc 1705 Deef red",
+   "satuan": "kg",
+   "stock_awal": 10.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "TCMAG19",
+   "nama": "Tc 1905 Magenta",
+   "satuan": "kg",
+   "stock_awal": 10.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "TCVI26",
+   "nama": "Tc 2606 Violet",
+   "satuan": "kg",
+   "stock_awal": 3.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "TCREFBLU30",
+   "nama": "Tc 3005 Reflex blue",
+   "satuan": "kg",
+   "stock_awal": 4.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "TCLIGBLU34",
+   "nama": "Tc 3405 Light blue",
+   "satuan": "kg",
+   "stock_awal": 8.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "TCCA35",
+   "nama": "Tc 3505 Cayn",
+   "satuan": "kg",
+   "stock_awal": 8.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "TCGR40",
+   "nama": "Tc 4005 Green",
+   "satuan": "kg",
+   "stock_awal": 14.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "TCBLC55",
+   "nama": "Tc 5500 Black",
+   "satuan": "kg",
+   "stock_awal": 18.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "TCGL61",
+   "nama": "Tc 6207 gold",
+   "satuan": "kg",
+   "stock_awal": 1.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "TCGL62",
+   "nama": "Tc 6208 Gold",
+   "satuan": "kg",
+   "stock_awal": 4.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "TCGL63",
+   "nama": "Tc 6209 Gold",
+   "satuan": "kg",
+   "stock_awal": 4.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "TCSIL64",
+   "nama": "Tc 6409 silver",
+   "satuan": "kg",
+   "stock_awal": 1.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "TCWHIT70",
+   "nama": "Tc 7000 white",
+   "satuan": "kg",
+   "stock_awal": 22.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "TCORG07",
+   "nama": "Tc 0705 Orange",
+   "satuan": "kg",
+   "stock_awal": 69.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "HDX-1Y",
+   "nama": "HDX-1 Yellow",
+   "satuan": "kg",
+   "stock_awal": 6.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "HDX-1C",
+   "nama": "HDX-1 Cyan",
+   "satuan": "kg",
+   "stock_awal": 4.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "HDX-1M",
+   "nama": "HDX-1 Magenta",
+   "satuan": "kg",
+   "stock_awal": 2.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "HDX-1B",
+   "nama": "HDX-1 Black",
+   "satuan": "kg",
+   "stock_awal": 6.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "HVSJLD",
+   "nama": "HVS JITLADA THAI DARK RED HD",
+   "satuan": "kg",
+   "stock_awal": 10.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "MATOP",
+   "nama": "MATT Opv",
+   "satuan": "kg",
+   "stock_awal": 0.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "OPCT",
+   "nama": "OPV CTW",
+   "satuan": "kg",
+   "stock_awal": 9.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "VPP200",
+   "nama": "VIVA plas pink 200",
+   "satuan": "kg",
+   "stock_awal": 3.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "OO-V",
+   "nama": "OO-varnis",
+   "satuan": "kg",
+   "stock_awal": 3.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "VPY600",
+   "nama": "VIVA plas cf yellow 600",
+   "satuan": "kg",
+   "stock_awal": 2.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "VPY605",
+   "nama": "VIVA plas yellow 605",
+   "satuan": "kg",
+   "stock_awal": 2.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "VPG700",
+   "nama": "VIVA plas green 700",
+   "satuan": "kg",
+   "stock_awal": 0.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "BLNSM102",
+   "nama": "Blanket SM102",
+   "satuan": "lembar",
+   "stock_awal": 3.0,
+   "lacak_qr": false
+  },
+  {
+   "kode": "BLNSM74",
+   "nama": "Blanket SM74",
+   "satuan": "lembar",
+   "stock_awal": 2.0,
+   "lacak_qr": false
+  },
+  {
+   "kode": "BLNSOR-D",
+   "nama": "Blanket SOR-D",
+   "satuan": "lembar",
+   "stock_awal": 5.0,
+   "lacak_qr": false
+  },
+  {
+   "kode": "BLNGTO",
+   "nama": "Blanket GTO",
+   "satuan": "lembar",
+   "stock_awal": 0.0,
+   "lacak_qr": false
+  },
+  {
+   "kode": "BLNSM52",
+   "nama": "Blanket SM52",
+   "satuan": "lembar",
+   "stock_awal": 11.0,
+   "lacak_qr": false
+  },
+  {
+   "kode": "NMSOR-D",
+   "nama": "New mol SOR-D",
+   "satuan": "roll",
+   "stock_awal": 3.0,
+   "lacak_qr": false
+  },
+  {
+   "kode": "CRTOR",
+   "nama": "Corektor",
+   "satuan": "kg",
+   "stock_awal": 0.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "UPC",
+   "nama": "Ultra plat cleaner",
+   "satuan": "kg",
+   "stock_awal": 11.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "SRGM",
+   "nama": "Spargum",
+   "satuan": "kg",
+   "stock_awal": 16.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "GUM",
+   "nama": "Gumplate",
+   "satuan": "galon",
+   "stock_awal": 0.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "PSTPR",
+   "nama": "Pastapur",
+   "satuan": "kg",
+   "stock_awal": 0.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "SPRP",
+   "nama": "SPRAY POWDER",
+   "satuan": "kg",
+   "stock_awal": 2.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "TKINK",
+   "nama": "founten toyo ink",
+   "satuan": "galon",
+   "stock_awal": 2.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "FOUNTEN",
+   "nama": "stacker",
+   "satuan": "galon",
+   "stock_awal": 4.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "AKA FC",
+   "nama": "Aka faber castel",
+   "satuan": "kg",
+   "stock_awal": 8.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "IPA99%",
+   "nama": "Ipa alkohol",
+   "satuan": "drum",
+   "stock_awal": 0.0,
+   "lacak_qr": true
+  },
+  {
+   "kode": "SLX-20",
+   "nama": "Silux-20",
+   "satuan": "jrigen",
+   "stock_awal": 4.0,
+   "lacak_qr": true
+  }
+ ],
+ "masuk": [
+  {
+   "tanggal": "2026-08-03",
+   "kode": "SRGM",
+   "keterangan": "Barang masuk",
+   "jumlah": 40
+  },
+  {
+   "tanggal": "2026-08-03",
+   "kode": "FOUNTEN",
+   "keterangan": "Barang masuk",
+   "jumlah": 4
+  },
+  {
+   "tanggal": "2026-08-03",
+   "kode": "EMPMRC1",
+   "keterangan": "Barang masuk",
+   "jumlah": 20
+  },
+  {
+   "tanggal": "2026-08-03",
+   "kode": "EMPMRC2",
+   "keterangan": "Barang masuk",
+   "jumlah": 10
+  },
+  {
+   "tanggal": "2026-08-03",
+   "kode": "EMPMRC3",
+   "keterangan": "Barang masuk",
+   "jumlah": 10
+  },
+  {
+   "tanggal": "2026-08-03",
+   "kode": "EMPMRC4",
+   "keterangan": "Barang masuk",
+   "jumlah": 20
+  },
+  {
+   "tanggal": "2026-08-05",
+   "kode": "EMPMRC1",
+   "keterangan": "Barang masuk",
+   "jumlah": 10
+  },
+  {
+   "tanggal": "2026-08-05",
+   "kode": "EMPMRC2",
+   "keterangan": "Barang masuk",
+   "jumlah": 10
+  },
+  {
+   "tanggal": "2026-08-05",
+   "kode": "EMPMRC3",
+   "keterangan": "Barang masuk",
+   "jumlah": 20
+  },
+  {
+   "tanggal": "2026-08-05",
+   "kode": "EMPMRC4",
+   "keterangan": "Barang masuk",
+   "jumlah": 20
+  },
+  {
+   "tanggal": "2026-08-07",
+   "kode": "TCRUBRED16",
+   "keterangan": "Barang masuk",
+   "jumlah": 10
+  },
+  {
+   "tanggal": "2026-08-07",
+   "kode": "TKINK",
+   "keterangan": "Barang masuk",
+   "jumlah": 4
+  },
+  {
+   "tanggal": "2026-08-07",
+   "kode": "SLX-20",
+   "keterangan": "Barang masuk",
+   "jumlah": 4
+  },
+  {
+   "tanggal": "2026-08-07",
+   "kode": "IPA99%",
+   "keterangan": "Barang masuk",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-10",
+   "kode": "TCDERED17",
+   "keterangan": "Barang masuk",
+   "jumlah": 10
+  },
+  {
+   "tanggal": "2026-08-10",
+   "kode": "TCWHIT70",
+   "keterangan": "Barang masuk",
+   "jumlah": 15
+  },
+  {
+   "tanggal": "2026-08-10",
+   "kode": "AKA FC",
+   "keterangan": "Barang masuk",
+   "jumlah": 20
+  },
+  {
+   "tanggal": "2026-08-12",
+   "kode": "TCBLC55",
+   "keterangan": "Barang masuk",
+   "jumlah": 10
+  },
+  {
+   "tanggal": "2026-08-12",
+   "kode": "OO-V",
+   "keterangan": "Barang masuk",
+   "jumlah": 5
+  },
+  {
+   "tanggal": "2026-08-14",
+   "kode": "IPA99%",
+   "keterangan": "Barang masuk",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-15",
+   "kode": "TCMEDY01",
+   "keterangan": "Barang masuk",
+   "jumlah": 10
+  },
+  {
+   "tanggal": "2026-08-19",
+   "kode": "TCREFBLU30",
+   "keterangan": "Barang masuk",
+   "jumlah": 10
+  },
+  {
+   "tanggal": "2026-08-21",
+   "kode": "SRGM",
+   "keterangan": "Barang masuk",
+   "jumlah": 20
+  },
+  {
+   "tanggal": "2026-08-21",
+   "kode": "FOUNTEN",
+   "keterangan": "Barang masuk",
+   "jumlah": 4
+  },
+  {
+   "tanggal": "2026-08-21",
+   "kode": "TCRED14",
+   "keterangan": "Barang masuk",
+   "jumlah": 10
+  },
+  {
+   "tanggal": "2026-08-24",
+   "kode": "EMPMRC1",
+   "keterangan": "Barang masuk",
+   "jumlah": 30
+  },
+  {
+   "tanggal": "2026-08-24",
+   "kode": "EMPMRC2",
+   "keterangan": "Barang masuk",
+   "jumlah": 10
+  },
+  {
+   "tanggal": "2026-08-24",
+   "kode": "EMPMRC3",
+   "keterangan": "Barang masuk",
+   "jumlah": 30
+  },
+  {
+   "tanggal": "2026-08-24",
+   "kode": "EMPMRC4",
+   "keterangan": "Barang masuk",
+   "jumlah": 20
+  },
+  {
+   "tanggal": "2026-08-24",
+   "kode": "BLNSM102",
+   "keterangan": "Barang masuk",
+   "jumlah": 5
+  },
+  {
+   "tanggal": "2026-08-27",
+   "kode": "TCCA35",
+   "keterangan": "Barang masuk",
+   "jumlah": 10
+  },
+  {
+   "tanggal": "2026-08-27",
+   "kode": "TCBLC55",
+   "keterangan": "Barang masuk",
+   "jumlah": 10
+  },
+  {
+   "tanggal": "2026-08-28",
+   "kode": "TKINK",
+   "keterangan": "Barang masuk",
+   "jumlah": 8
+  },
+  {
+   "tanggal": "2026-08-28",
+   "kode": "UPC",
+   "keterangan": "Barang masuk",
+   "jumlah": 10
+  },
+  {
+   "tanggal": "2026-08-28",
+   "kode": "NMSOR-D",
+   "keterangan": "Barang masuk",
+   "jumlah": 5
+  }
+ ],
+ "keluar": [
+  {
+   "tanggal": "2026-08-01",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-01",
+   "kode": "TCMEDY01",
+   "no_spk_mesin": "1797/Sor-d",
+   "keterangan": "Untuk cetak SBR",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-03",
+   "kode": "TCCA35",
+   "no_spk_mesin": "1797/Sor-d",
+   "keterangan": "Untuk cetak SBR",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-03",
+   "kode": "SRGM",
+   "no_spk_mesin": "QC 84",
+   "keterangan": "Untuk hapus cetakan flex faber castle",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-03",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-03",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-03",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-03",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "1776/Sm 102",
+   "keterangan": "Untuk cetak kutus-kutus",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-03",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "1776/Sm 102",
+   "keterangan": "Untuk cetak kutus-kutus",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-03",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "1776/Sm 102",
+   "keterangan": "Untuk cetak kutus-kutus",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-03",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "1776/Sm 102",
+   "keterangan": "Untuk cetak kutus-kutus",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-03",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-03",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak label bumbu",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-03",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak label bumbu",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-03",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak label bumbu",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-03",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "1798/Sm 52 L",
+   "keterangan": "Untuk cetak box amour",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-04",
+   "kode": "UPC",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-04",
+   "kode": "TCORG07",
+   "no_spk_mesin": "Sor-d",
+   "keterangan": "Untuk cetak SBR",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-04",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "1757/Sm 74",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-04",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-04",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "1776/Sm 102",
+   "keterangan": "Untuk cetak kutus-kutus",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-04",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "1776/Sm 102",
+   "keterangan": "Untuk cetak kutus-kutus",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-04",
+   "kode": "TCMAG19",
+   "no_spk_mesin": "1797/ Sor-d",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-04",
+   "kode": "TCCA35",
+   "no_spk_mesin": "1797/ Sor-d",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-04",
+   "kode": "TCMED",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Cetak box cheese",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-04",
+   "kode": "OO-V",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Cetak box cheese",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-04",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "1854/Sm 52 B",
+   "keterangan": "Untuk cetak table mat",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-04",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "1854/Sm 52 B",
+   "keterangan": "Untuk cetak table mat",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-04",
+   "kode": "FOUNTEN",
+   "no_spk_mesin": "Sor-d",
+   "keterangan": "Untuk mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-04",
+   "kode": "TCMEDY01",
+   "no_spk_mesin": "Sor-d",
+   "keterangan": "Untuk cetak SBR",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-04",
+   "kode": "TCGR40",
+   "no_spk_mesin": "Sor-d",
+   "keterangan": "Untuk cetak SBR",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-05",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-05",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-05",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 102",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-05",
+   "kode": "SPRP",
+   "no_spk_mesin": "Sm 102",
+   "keterangan": "Untuk mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-05",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "1776/Sm 102",
+   "keterangan": "Untuk cetak kutus-kutus",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-05",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "1776/Sm 102",
+   "keterangan": "Untuk cetak kutus-kutus",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-05",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "1776/Sm 102",
+   "keterangan": "Untuk cetak kutus-kutus",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-05",
+   "kode": "UPC",
+   "no_spk_mesin": "Sm 52 L",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-05",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 52 L",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-05",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "1816/Sm 52 L",
+   "keterangan": "Untuk cetak box routi",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-05",
+   "kode": "TCREFBLU30",
+   "no_spk_mesin": "1816/Sm 52 L",
+   "keterangan": "Untuk cetak box routi",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-05",
+   "kode": "TCGR40",
+   "no_spk_mesin": "1816/Sm 52 L",
+   "keterangan": "Untuk cetak box routi",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-05",
+   "kode": "BLNSM52",
+   "no_spk_mesin": "1816/Sm 52 L",
+   "keterangan": "Untuk cetak box routi",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-05",
+   "kode": "UPC",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-05",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-05",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak table mat",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-05",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak table mat",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-05",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak table mat",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-05",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak table mat",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-06",
+   "kode": "TCRUBRED16",
+   "no_spk_mesin": "Sm 52 L",
+   "keterangan": "Untuk cetak FC Estesia",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-06",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "Sm 52 L",
+   "keterangan": "Untuk cetak FC Estesia",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-06",
+   "kode": "TKINK",
+   "no_spk_mesin": "Sm 52 L",
+   "keterangan": "Untuk ciller",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-07",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "1858/Sm 52 L",
+   "keterangan": "Untuk cetak faber castle",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-07",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "1858/Sm 52 L",
+   "keterangan": "Untuk cetak faber castle",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-07",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "1858/Sm 52 L",
+   "keterangan": "Untuk cetak faber castle",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-07",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-07",
+   "kode": "TCMED",
+   "no_spk_mesin": "Gto-2",
+   "keterangan": "Untuk cetak undangan",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-07",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak faber castle",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-07",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak faber castle",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-07",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak faber castle",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-07",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak faber castle",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-07",
+   "kode": "IPA99%",
+   "no_spk_mesin": "88A & 84",
+   "keterangan": "Untuk pemakaian semua mesin cetak",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-08",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "1850/Sm 74",
+   "keterangan": "Cetak paperbag faber castle",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-08",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "1850/Sm 74",
+   "keterangan": "Cetak paperbag faber castle",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-08",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "1850/Sm 74",
+   "keterangan": "Cetak paperbag faber castle",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-08",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "1850/Sm 74",
+   "keterangan": "Cetak paperbag faber castle",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-08",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 52 L",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-08",
+   "kode": "TCMED",
+   "no_spk_mesin": "Sm 102",
+   "keterangan": "Untuk cetak foom",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-08",
+   "kode": "TCWHIT70",
+   "no_spk_mesin": "Sm 102",
+   "keterangan": "Untuk cetak foom",
+   "jumlah": 5
+  },
+  {
+   "tanggal": "2026-08-08",
+   "kode": "VPP200",
+   "no_spk_mesin": "Sm 102",
+   "keterangan": "Untuk cetak foom",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-08",
+   "kode": "TCRUBRED16",
+   "no_spk_mesin": "Sm 102",
+   "keterangan": "Untuk cetak foom",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-08",
+   "kode": "TCDERED17",
+   "no_spk_mesin": "Sm 102",
+   "keterangan": "Untuk cetak foom",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-09",
+   "kode": "TCWHIT70",
+   "no_spk_mesin": "1875/ Sm 52 L",
+   "keterangan": "Untuk cetak creepes",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-09",
+   "kode": "TCMEDY01",
+   "no_spk_mesin": "1797/Sm 52 L",
+   "keterangan": "Untuk cetak CV sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-09",
+   "kode": "AKA FC",
+   "no_spk_mesin": "1886/Sm 52 B",
+   "keterangan": "Untuk cetak buku seri luar angkasa",
+   "jumlah": 4
+  },
+  {
+   "tanggal": "2026-08-10",
+   "kode": "OPCT",
+   "no_spk_mesin": "1825/Gto-2",
+   "keterangan": "Untuk cetak UB Epocaldi",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-10",
+   "kode": "TCBLC55",
+   "no_spk_mesin": "1853/Sor-d",
+   "keterangan": "Untuk cetak faber castle",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-10",
+   "kode": "SRGM",
+   "no_spk_mesin": "QC 84",
+   "keterangan": "Untuk menghapus flek box erha ",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-10",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "1850/Sm 74",
+   "keterangan": "Cetak paperbag faber castle",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-10",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "1850/Sm 74",
+   "keterangan": "Cetak paperbag faber castle",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-10",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "1850/Sm 74",
+   "keterangan": "Cetak paperbag faber castle",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-10",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "1850/Sm 74",
+   "keterangan": "Cetak paperbag faber castle",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-10",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-10",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "1858/Sm 52 L",
+   "keterangan": "Untuk cetak faber castle",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-10",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "1858/Sm 52 L",
+   "keterangan": "Untuk cetak faber castle",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-10",
+   "kode": "TCBLC55",
+   "no_spk_mesin": "1853/Sor-d",
+   "keterangan": "Untuk cetak faber castle",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-10",
+   "kode": "TCMED",
+   "no_spk_mesin": "Gto-2",
+   "keterangan": "Untuk cetak undangan",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-10",
+   "kode": "TCMEDY01",
+   "no_spk_mesin": "Gto-2",
+   "keterangan": "Untuk cetak undangan",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-10",
+   "kode": "TCWHIT70",
+   "no_spk_mesin": "Gto-2",
+   "keterangan": "Untuk cetak undangan",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-10",
+   "kode": "AKA FC",
+   "no_spk_mesin": "1880/ Sm 52 B",
+   "keterangan": "Untuk cetak faber castle",
+   "jumlah": 5
+  },
+  {
+   "tanggal": "2026-08-10",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "1880/ Sm 52 B",
+   "keterangan": "Untuk cetak faber castle",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-10",
+   "kode": "TCREFBLU30",
+   "no_spk_mesin": "1797/ Sm 52 L",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-10",
+   "kode": "TCLIGBLU34",
+   "no_spk_mesin": "1797/ Sm 52 L",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-10",
+   "kode": "TCCA35",
+   "no_spk_mesin": "1797/ Sm 52 L",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-10",
+   "kode": "TCGR40",
+   "no_spk_mesin": "1797/ Sm 52 L",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-10",
+   "kode": "AKA FC",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak faber castle",
+   "jumlah": 4
+  },
+  {
+   "tanggal": "2026-08-10",
+   "kode": "TCBLC55",
+   "no_spk_mesin": "1845/Sor-d",
+   "keterangan": "Untuk blok kering",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-10",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "1880/ Sm 74",
+   "keterangan": "Untuk cetak faber castle",
+   "jumlah": 3
+  },
+  {
+   "tanggal": "2026-08-11",
+   "kode": "TKINK",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Untuk ciller",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-11",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "1880/ Sm 74",
+   "keterangan": "Untuk cetak faber castle",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-11",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak sleeve panasony",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-11",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak sleeve panasony",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-11",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak sleeve panasony",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-11",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak sleeve panasony",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-11",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 52 L",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-11",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "Sm 52 L",
+   "keterangan": "Untuk cetak faber castle",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-11",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "Sm 52 L",
+   "keterangan": "Untuk cetak faber castle",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-11",
+   "kode": "TCMEDY01",
+   "no_spk_mesin": "Sm 52 L",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-11",
+   "kode": "TCCA35",
+   "no_spk_mesin": "Sm 52 L",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-11",
+   "kode": "TCGR40",
+   "no_spk_mesin": "Sm 52 L",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-11",
+   "kode": "TCMED",
+   "no_spk_mesin": "1879/ Sor-d",
+   "keterangan": "Untuk cetak box croisatl ederensya",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-11",
+   "kode": "TCBRONRED11",
+   "no_spk_mesin": "1879/ Sor-d",
+   "keterangan": "Untuk cetak box croisatl ederensya",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-11",
+   "kode": "TCWHIT70",
+   "no_spk_mesin": "1879/ Sor-d",
+   "keterangan": "Untuk cetak box croisatl ederensya",
+   "jumlah": 5
+  },
+  {
+   "tanggal": "2026-08-11",
+   "kode": "UPC",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-11",
+   "kode": "SLX-20",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-11",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-11",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "1880/Sm 74",
+   "keterangan": "Untuk cetak faber castle",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-12",
+   "kode": "TCBLC55",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak isi faber castle",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-12",
+   "kode": "OO-V",
+   "no_spk_mesin": "Sm 102",
+   "keterangan": "Untuk cetak Ella glo",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-12",
+   "kode": "TCBLC55",
+   "no_spk_mesin": "Sm 102",
+   "keterangan": "Untuk cetak Ella glo",
+   "jumlah": 3
+  },
+  {
+   "tanggal": "2026-08-12",
+   "kode": "SLX-20",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-12",
+   "kode": "TCBLC55",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak faber castle",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-12",
+   "kode": "TCBLC55",
+   "no_spk_mesin": "1880/ Sm 74",
+   "keterangan": "Untuk cetak faber castle",
+   "jumlah": 5
+  },
+  {
+   "tanggal": "2026-08-12",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-12",
+   "kode": "TKINK",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk ciller",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-12",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-12",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "Sm 52 L",
+   "keterangan": "Untuk cetak box luar",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-12",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 52 L",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-12",
+   "kode": "TKINK",
+   "no_spk_mesin": "Sm 52 L",
+   "keterangan": "Untuk ciller",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-13",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "Sm 102",
+   "keterangan": "Untuk cetak foom",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-13",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-13",
+   "kode": "TCMED",
+   "no_spk_mesin": "Sor-d",
+   "keterangan": "Untuk cetak box",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-13",
+   "kode": "OO-V",
+   "no_spk_mesin": "Sor-d",
+   "keterangan": "Untuk cetak box",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-13",
+   "kode": "TCWHIT70",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak genero",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-13",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak brosur",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-13",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak brosur",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-13",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak brosur",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-13",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-14",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "Sm 52 L",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-14",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "Sm 52 L",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 4
+  },
+  {
+   "tanggal": "2026-08-14",
+   "kode": "TCMEDY01",
+   "no_spk_mesin": "Sm 52 L",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-14",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-14",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-14",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-14",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-14",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-14",
+   "kode": "IPA99%",
+   "no_spk_mesin": "88A & 84",
+   "keterangan": "Untuk pemakaian semua mesin cetak",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-15",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "Sm 52 L",
+   "keterangan": "Untuk cetak undangan",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-15",
+   "kode": "FOUNTEN",
+   "no_spk_mesin": "Sor-d",
+   "keterangan": "Untuk mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-15",
+   "kode": "TCREFBLU30",
+   "no_spk_mesin": "Sor-d",
+   "keterangan": "Untuk cetak sakamoto basic",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-15",
+   "kode": "TCLIGBLU34",
+   "no_spk_mesin": "Sor-d",
+   "keterangan": "Untuk cetak sakamoto basic",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-15",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "Sor-d",
+   "keterangan": "Untuk cetak sakamoto basic",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-17",
+   "kode": "BLNSM52",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-17",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-18",
+   "kode": "UPC",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-18",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-18",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Untuk cetak undangan",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-18",
+   "kode": "TKINK",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Untuk ciller",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-18",
+   "kode": "BLNSM74",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Untuk mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-18",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak album Inti prima karya",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-18",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak album Inti prima karya",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-18",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak album Inti prima karya",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-18",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak album Inti prima karya",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-18",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-18",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "Sm 52 L",
+   "keterangan": "Untuk cetak astrindo",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-18",
+   "kode": "TCCA35",
+   "no_spk_mesin": "Sor-d",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-18",
+   "kode": "TCGR40",
+   "no_spk_mesin": "Sor-d",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-18",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "Sm 52 L",
+   "keterangan": "Untuk cetak",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-18",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "Sm 52 L",
+   "keterangan": "Untuk cetak",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-18",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "Sm 52 L",
+   "keterangan": "Untuk cetak",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-18",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 52 L",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-19",
+   "kode": "TKINK",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk ciller",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-19",
+   "kode": "SLX-20",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-19",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-19",
+   "kode": "UPC",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-19",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-19",
+   "kode": "TCORG07",
+   "no_spk_mesin": "Sor-d",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 3
+  },
+  {
+   "tanggal": "2026-08-19",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "Sor-d",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-20",
+   "kode": "FOUNTEN",
+   "no_spk_mesin": "Sor-d",
+   "keterangan": "Untuk mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-20",
+   "kode": "TCRED14",
+   "no_spk_mesin": "1796/ Sor-d",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-20",
+   "kode": "TCORG07",
+   "no_spk_mesin": "Sm 52 L",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-20",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak kop surat Enviro",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-20",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak kop surat Enviro",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-20",
+   "kode": "TCRED14",
+   "no_spk_mesin": "1796/Sor-d",
+   "keterangan": "Untuk cetak SBR",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-21",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "1889/ Sm 74",
+   "keterangan": "Untuk cetak paperbag tong dji",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-21",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "1889/ Sm 74",
+   "keterangan": "Untuk cetak paperbag tong dji",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-21",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "1889/ Sm 74",
+   "keterangan": "Untuk cetak paperbag tong dji",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-21",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-21",
+   "kode": "NMSOR-D",
+   "no_spk_mesin": "1796/ Sor-d",
+   "keterangan": "Untuk sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-21",
+   "kode": "BLNSM52",
+   "no_spk_mesin": "Gto-2",
+   "keterangan": "Untuk mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-21",
+   "kode": "TCCA35",
+   "no_spk_mesin": "Sor-d",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-21",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "1968/ Sm 74",
+   "keterangan": "Untuk cetak jitlada",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-21",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "1968/ Sm 74",
+   "keterangan": "Untuk cetak jitlada",
+   "jumlah": 11
+  },
+  {
+   "tanggal": "2026-08-21",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "1968/ Sm 74",
+   "keterangan": "Untuk cetak jitlada",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-21",
+   "kode": "BLNSM102",
+   "no_spk_mesin": "Sm 102",
+   "keterangan": "Untuk mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-22",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "Sm 102",
+   "keterangan": "Untuk cetak kutus-kutus",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-22",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "Sm 102",
+   "keterangan": "Untuk cetak kutus-kutus",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-22",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "1968/ Sm 74",
+   "keterangan": "Untuk cetak jitlada",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-22",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "1968/ Sm 74",
+   "keterangan": "Untuk cetak jitlada",
+   "jumlah": 3
+  },
+  {
+   "tanggal": "2026-08-22",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-22",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "1968/ Sm 74",
+   "keterangan": "Untuk cetak jitlada",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-22",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "1968/ Sm 74",
+   "keterangan": "Untuk cetak jitlada",
+   "jumlah": 6
+  },
+  {
+   "tanggal": "2026-08-22",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "1968/ Sm 74",
+   "keterangan": "Untuk cetak jitlada",
+   "jumlah": 3
+  },
+  {
+   "tanggal": "2026-08-22",
+   "kode": "TCBLC55",
+   "no_spk_mesin": "1939/ Gto-2",
+   "keterangan": "Untuk cetak foam insert ",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-23",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-23",
+   "kode": "AKA FC",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak faber castle",
+   "jumlah": 3
+  },
+  {
+   "tanggal": "2026-08-23",
+   "kode": "BLNSM52",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-23",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak table mat",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-24",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "1820/Sor-d",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-24",
+   "kode": "TCMEDY01",
+   "no_spk_mesin": "1820/Sor-d",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-24",
+   "kode": "TCGR40",
+   "no_spk_mesin": "1820/Sor-d",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-24",
+   "kode": "BLNSM102",
+   "no_spk_mesin": "Sm 102",
+   "keterangan": "Untuk mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-24",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "1923/ Sm 102",
+   "keterangan": "Untuk cetak kutus-kutus",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-24",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "1923/ Sm 102",
+   "keterangan": "Untuk cetak kutus-kutus",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-24",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "1923/ Sm 102",
+   "keterangan": "Untuk cetak kutus-kutus",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-24",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "1923/ Sm 102",
+   "keterangan": "Untuk cetak kutus-kutus",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-24",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "1796/ Sm 74",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-26",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak undangan",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-26",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak undangan",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-26",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak undangan",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-26",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak undangan",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-26",
+   "kode": "UPC",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-26",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-26",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "1796/ Sm 74",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-26",
+   "kode": "TCMEDY01",
+   "no_spk_mesin": "1820/ Sm 52 B",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-27",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk adukan warna khusus faber castle box",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-27",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk adukan warna khusus faber castle box",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-27",
+   "kode": "TKINK",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk ciller",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-27",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak SBR",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-27",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak SBR",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-27",
+   "kode": "TCBLC55",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak SBR",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-27",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "1848/ Sm 102",
+   "keterangan": "Untuk cetak mowilex & box tell me",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-27",
+   "kode": "TCBLC55",
+   "no_spk_mesin": "1848/ Sm 102",
+   "keterangan": "Untuk cetak mowilex & box tell me",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-27",
+   "kode": "UPC",
+   "no_spk_mesin": "Sm 102",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-27",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 102",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-27",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-27",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-27",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-27",
+   "kode": "UPC",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-27",
+   "kode": "TKINK",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Untuk ciller",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-27",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak faber castle",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-27",
+   "kode": "BLNSM52",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak faber castle",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-28",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "Sm 102",
+   "keterangan": "Untuk cetak foom",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-28",
+   "kode": "TCORG07",
+   "no_spk_mesin": "Sm 102",
+   "keterangan": "Untuk cetak foom",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-28",
+   "kode": "TCGR40",
+   "no_spk_mesin": "Sm 102",
+   "keterangan": "Untuk cetak foom",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-28",
+   "kode": "UPC",
+   "no_spk_mesin": "Sm 102",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-28",
+   "kode": "TKINK",
+   "no_spk_mesin": "Sm 102",
+   "keterangan": "Untuk ciller",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-28",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-28",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "1895/ Sm 74",
+   "keterangan": "Untuk cetak sosis otak-otak",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-28",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "1895/ Sm 74",
+   "keterangan": "Untuk cetak sosis otak-otak",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-28",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "1895/ Sm 74",
+   "keterangan": "Untuk cetak sosis otak-otak",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-28",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "1895/ Sm 74",
+   "keterangan": "Untuk cetak sosis otak-otak",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-28",
+   "kode": "TCWHIT70",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak box minyak sanga ttavel clasic",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-28",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak label sarden gaga",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-28",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak label sarden gaga",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-28",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak label sarden gaga",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-28",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "Sm 52 B",
+   "keterangan": "Untuk cetak label sarden gaga",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-29",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "1895/ Sm 74",
+   "keterangan": "Untuk sosis otak-otak",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-29",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "1895/ Sm 74",
+   "keterangan": "Untuk sosis otak-otak",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-29",
+   "kode": "TCBRONRED11",
+   "no_spk_mesin": "Gto-2",
+   "keterangan": "Untuk cetak undangan",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-29",
+   "kode": "TCBLC55",
+   "no_spk_mesin": "2001/ Sor-d",
+   "keterangan": "Untuk cetak box kahitna",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-29",
+   "kode": "TCBRONRED11",
+   "no_spk_mesin": "2001/ Sor-d",
+   "keterangan": "Untuk cetak box kahitna",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-29",
+   "kode": "BLNSOR-D",
+   "no_spk_mesin": "Sor-d",
+   "keterangan": "Untuk mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-29",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 52 B ",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 3
+  },
+  {
+   "tanggal": "2026-08-31",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "Sm 52 B ",
+   "keterangan": "Untuk cetak faber castle",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-31",
+   "kode": "TCBLC55",
+   "no_spk_mesin": "2001/ Sor-d",
+   "keterangan": "Untuk cetak box kahitna",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-31",
+   "kode": "EMPMRC1",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-31",
+   "kode": "EMPMRC2",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-31",
+   "kode": "EMPMRC3",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-31",
+   "kode": "EMPMRC4",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Cetak sakamoto",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-31",
+   "kode": "SRGM",
+   "no_spk_mesin": "Sm 74",
+   "keterangan": "Untuk membersihkan mesin",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-31",
+   "kode": "TCBLC55",
+   "no_spk_mesin": "Sor-d",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 1
+  },
+  {
+   "tanggal": "2026-08-31",
+   "kode": "TCMEDY01",
+   "no_spk_mesin": "Sor-d",
+   "keterangan": "Untuk cetak sakamoto",
+   "jumlah": 2
+  },
+  {
+   "tanggal": "2026-08-31",
+   "kode": "FOUNTEN",
+   "no_spk_mesin": "Sor-d",
+   "keterangan": "Untuk mesin",
+   "jumlah": 1
+  }
+ ]
+}

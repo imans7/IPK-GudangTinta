@@ -1,0 +1,197 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider     = "mysql"
+  url          = env("DATABASE_URL")
+  relationMode = "prisma" // aman untuk TiDB: relasi dijaga Prisma, bukan FK database
+}
+
+enum Role {
+  ADMIN
+  OPERATOR
+}
+
+enum SatuanKomposisi {
+  GRAM
+  PERSEN
+}
+
+enum StatusKaleng {
+  BARU
+  TERBUKA
+  DIPINJAM // sedang di mesin, menunggu pengembalian (agar tidak direkomendasikan dua kali oleh FIFO)
+  HABIS
+}
+
+model User {
+  id           String   @id @default(cuid())
+  username     String   @unique
+  password     String
+  nama_lengkap String
+  role         Role     @default(OPERATOR)
+  createdAt    DateTime @default(now())
+
+  masuk        TransaksiMasuk[]
+  keluar       TransaksiKeluar[]       @relation("Operator")
+  pengembalian TransaksiPengembalian[] @relation("Pengembali")
+  sesiScan     SesiScan[]
+}
+
+// Stock Opname Bahan Pembantu. Semua berat dalam "unit dasar": gram untuk satuan kg/gram,
+// selain itu dalam satuan barangnya sendiri (lembar, roll, ...).
+model MasterKatalog {
+  kode              String  @id
+  nama_barang       String
+  satuan            String
+  stock_awal_kaleng Float   @default(0)
+  stock_awal_berat  Float   @default(0)
+  total_berat_tinta Float   @default(0) // akumulasi real-time seluruh kaleng aktif
+  gambar_url        String?
+  lacak_qr          Boolean @default(true) // false = barang non-kaleng (blanket, roll), tanpa QR/FIFO
+
+  kaleng       DetailKaleng[]
+  masuk        TransaksiMasuk[]
+  keluar       TransaksiKeluar[]
+  pengembalian TransaksiPengembalian[]
+  stokPeriode  StokPeriode[]
+  komposisi    KomposisiWarna[]        @relation("HasilCampuran")
+  dipakaiDi    KomposisiWarna[]        @relation("Komponen")
+}
+
+// STOCK AWAL per bulan (diketik manual di Excel pabrik)
+model StokPeriode {
+  id                Int    @id @default(autoincrement())
+  periode           String // YYYY-MM
+  kode_barang       String
+  stock_awal_kaleng Float  @default(0)
+  stock_awal_berat  Float  @default(0)
+
+  katalog MasterKatalog @relation(fields: [kode_barang], references: [kode])
+
+  @@unique([periode, kode_barang])
+  @@index([kode_barang])
+}
+
+model KomposisiWarna {
+  id            Int             @id @default(autoincrement())
+  kode_barang   String
+  kode_komponen String?
+  nama_komponen String
+  is_base       Boolean         @default(false)
+  jumlah        Float?
+  satuan        SatuanKomposisi @default(GRAM)
+  urutan        Int             @default(0)
+
+  hasil    MasterKatalog  @relation("HasilCampuran", fields: [kode_barang], references: [kode])
+  komponen MasterKatalog? @relation("Komponen", fields: [kode_komponen], references: [kode])
+
+  @@index([kode_barang])
+  @@index([kode_komponen])
+}
+
+model DetailKaleng {
+  id_kaleng           String       @id @default(uuid()) // isi QR
+  kode_barang         String
+  masuk_id            Int? // transaksi masuk asalnya (1 form inbound = banyak kaleng)
+  lokasi_x            String? // 1A..3E
+  lokasi_y            String? // I..IV
+  lokasi_z            Int? // 1..7
+  batch_number        String
+  tanggal_masuk       DateTime
+  tanggal_kedaluwarsa DateTime
+  berat_aktual        Float
+  status              StatusKaleng @default(BARU)
+
+  katalog      MasterKatalog           @relation(fields: [kode_barang], references: [kode])
+  masuk        TransaksiMasuk?         @relation(fields: [masuk_id], references: [id])
+  keluar       TransaksiKeluar[]
+  pengembalian TransaksiPengembalian[]
+
+  @@index([kode_barang, status, tanggal_kedaluwarsa])
+  @@index([masuk_id])
+}
+
+model TransaksiMasuk {
+  id                  Int      @id @default(autoincrement())
+  tanggal_masuk       DateTime
+  kode_barang         String
+  keterangan          String   @default("Barang masuk")
+  jumlah_kaleng_masuk Int      @default(0)
+  total_berat_masuk   Float    @default(0)
+  foto_url            String? // foto nota / fisik (Cloudinary)
+  admin_id            String
+
+  katalog MasterKatalog  @relation(fields: [kode_barang], references: [kode])
+  admin   User           @relation(fields: [admin_id], references: [id])
+  kaleng  DetailKaleng[]
+
+  @@index([kode_barang])
+  @@index([admin_id])
+  @@index([tanggal_masuk])
+}
+
+model TransaksiKeluar {
+  id                   Int      @id @default(autoincrement())
+  tanggal_keluar       DateTime
+  kode_barang          String
+  id_kaleng            String? // null = barang non-kaleng / data impor Excel
+  no_spk_mesin         String
+  keterangan           String
+  jumlah_kaleng_keluar Int      @default(0)
+  berat_keluar         Float // berat awal saat dipinjam
+  operator_id          String // akun yang sedang login saat mencatat (audit)
+  nama_operator        String? // nama operator yang meminjam (boleh beda dari akun login)
+
+  katalog      MasterKatalog           @relation(fields: [kode_barang], references: [kode])
+  kaleng       DetailKaleng?           @relation(fields: [id_kaleng], references: [id_kaleng])
+  operator     User                    @relation("Operator", fields: [operator_id], references: [id])
+  pengembalian TransaksiPengembalian?
+
+  @@index([kode_barang])
+  @@index([id_kaleng])
+  @@index([operator_id])
+  @@index([tanggal_keluar])
+}
+
+model TransaksiPengembalian {
+  id                      Int      @id @default(autoincrement())
+  tanggal_kembali         DateTime
+  id_transaksi_keluar     Int      @unique
+  kode_barang             String
+  id_kaleng               String
+  berat_sisa_dikembalikan Float
+  berat_terpakai_aktual   Float
+  stok_gudang_setelah     Float? // total_berat_tinta sesaat setelah pengembalian (jejak historis)
+  pengembali_id           String // akun yang sedang login saat mencatat (audit)
+  nama_operator           String? // nama operator yang mengembalikan
+
+  keluar     TransaksiKeluar @relation(fields: [id_transaksi_keluar], references: [id])
+  katalog    MasterKatalog   @relation(fields: [kode_barang], references: [kode])
+  kaleng     DetailKaleng    @relation(fields: [id_kaleng], references: [id_kaleng])
+  pengembali User            @relation("Pengembali", fields: [pengembali_id], references: [id])
+
+  @@index([kode_barang])
+  @@index([id_kaleng])
+  @@index([pengembali_id])
+  @@index([tanggal_kembali])
+}
+
+// Sesi pairing scanner lintas perangkat: PC membuat sesi, HP mengirim hasil scan (id_kaleng), PC memantau.
+// Disimpan di database (bukan memori server) supaya jalan di Vercel/serverless maupun jaringan lokal.
+model SesiScan {
+  token          String   @id // rahasia acak 192-bit, ada di QR penghubung
+  user_id        String
+  hp_terhubung   Boolean  @default(false)
+  hasil_id       String? // id_kaleng scan terakhir dari HP
+  seq            Int      @default(0) // naik setiap ada scan baru
+  ditutup        Boolean  @default(false)
+  dibuat         DateTime @default(now())
+  berlaku_hingga DateTime
+
+  user User @relation(fields: [user_id], references: [id])
+
+  @@index([user_id])
+  @@index([berlaku_hingga])
+}
