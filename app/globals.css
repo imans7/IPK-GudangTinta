@@ -2,13 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ---------- Tema: terang & gelap ----------
+   Tailwind membaca palet slate dari variabel ini (tailwind.config.ts). Mode gelap = <html class="dark">. */
+@layer base {
+  :root {
+    color-scheme: light;
+    --slate-50: 248 250 252; --slate-100: 241 245 249; --slate-200: 226 232 240; --slate-300: 203 213 225; --slate-400: 148 163 184;
+    --slate-500: 100 116 139; --slate-600: 71 85 105; --slate-700: 51 65 85; --slate-800: 30 41 59; --slate-900: 15 23 42;
+  }
+  .dark {
+    color-scheme: dark; /* kalender, dropdown, dan scrollbar bawaan browser ikut gelap */
+    --slate-50: 15 23 42; --slate-100: 39 51 70; --slate-200: 51 65 85; --slate-300: 71 85 105; --slate-400: 148 163 184;
+    --slate-500: 148 163 184; --slate-600: 203 213 225; --slate-700: 226 232 240; --slate-800: 241 245 249; --slate-900: 248 250 252;
+  }
+}
+
 body { @apply bg-slate-50 text-slate-900 antialiased; }
 
+/* Permukaan putih (kartu, input, modal) dan warna status untuk mode gelap */
+.dark .bg-white { background-color: rgb(30 41 59); }
+.dark .text-red-600, .dark .text-red-700 { color: rgb(252 165 165); }
+.dark .text-red-800 { color: rgb(254 202 202); }
+.dark .text-green-700 { color: rgb(134 239 172); }
+.dark .text-green-800 { color: rgb(187 247 208); }
+.dark .text-amber-700, .dark .text-amber-800 { color: rgb(252 211 77); }
+.dark .text-amber-900 { color: rgb(253 230 138); }
+.dark .text-blue-700, .dark .text-blue-800 { color: rgb(147 197 253); }
+.dark .bg-red-50 { background-color: rgb(69 26 32); }
+.dark .bg-red-100 { background-color: rgb(92 32 40); }
+.dark .bg-green-50 { background-color: rgb(20 45 38); }
+.dark .bg-green-100 { background-color: rgb(24 62 48); }
+.dark .bg-amber-50 { background-color: rgb(56 43 20); }
+.dark .bg-amber-100 { background-color: rgb(74 54 18); }
+.dark .bg-blue-50 { background-color: rgb(23 37 84); }
+.dark .bg-blue-100 { background-color: rgb(30 58 138); }
+.dark .border-red-200 { border-color: rgb(127 29 29); }
+.dark .border-green-200 { border-color: rgb(22 101 52); }
+.dark .border-amber-200 { border-color: rgb(133 77 14); }
+
 /* Label QR: pratinjau di layar & cetak thermal 50x30 mm, satu label per halaman */
-.label { display: flex; gap: 2mm; align-items: center; width: 50mm; height: 30mm; padding: 2mm; box-sizing: border-box; font-size: 6.5pt; line-height: 1.2; border: 1px dashed #94a3b8; background: #fff; overflow: hidden; }
+.label { display: flex; gap: 2mm; align-items: center; width: 50mm; height: 30mm; padding: 2mm; box-sizing: border-box; font-size: 6.5pt; line-height: 1.2; border: 1px dashed #94a3b8; background: #fff; color: #0f172a; overflow: hidden; }
 .print-labels { display: none; }
 
 @media print {
+  html.dark body { background: #fff; }
   @page { size: 50mm 30mm; margin: 0; }
   body * { visibility: hidden; }
   .print-labels, .print-labels * { visibility: visible; }
