@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, type ReactNode } from "react";
 
 type RGB = [number, number, number];
 type Blob = { x: number; y: number; vx: number; vy: number; r: number; c: RGB; ph: number; life: number; drop: boolean };
